@@ -3,19 +3,19 @@ body:
   - type: markdown
     attributes:
       value: |
-        分享真实部署和验证结果，帮助其他人少走弯路。
-        请只发布你有权公开的内容，并先完成脱敏。
+        Share a real deployment and verified results so others can learn from it.
+        Publish only information you are authorized to share, and sanitize it first.
   - type: input
     id: summary
     attributes:
-      label: 你完成了什么？
-      placeholder: 例如：在两台 Nginx 服务器上使用定时拉取自动更新证书
+      label: What did you complete?
+      placeholder: For example, use scheduled pull to update certificates on two Nginx servers
     validations:
       required: true
   - type: textarea
     id: environment
     attributes:
-      label: 环境
+      label: Environment
       placeholder: |
         - OS / Architecture:
         - Web server or target:
@@ -27,26 +27,27 @@ body:
   - type: textarea
     id: approach
     attributes:
-      label: 实现方式
-      description: 说明关键步骤、脱敏配置和选择这种方式的原因。
+      label: Approach
+      description: Explain the key steps, sanitized configuration, and why you chose this approach.
     validations:
       required: true
   - type: textarea
     id: lessons
     attributes:
-      label: 踩坑和经验
-      description: 哪些地方最容易出错？你会给下一位使用者什么建议？
+      label: Lessons learned
+      description: What was most likely to go wrong, and what advice would you give the next user?
     validations:
       required: true
   - type: textarea
     id: followup
     attributes:
-      label: 下一步
-      description: 还有哪些限制、待验证项或希望社区共同改进的地方？
+      label: Next steps
+      description: List remaining limitations, unverified items, or areas where community help would be useful.
   - type: checkboxes
     id: safety
     attributes:
-      label: 公开确认
+      label: Public-content confirmation
       options:
-        - label: 我有权公开这些内容，并已删除凭证、私钥、客户标识、内网地址和敏感日志。
+        - label: I am authorized to publish this content and have removed credentials, private keys, customer identifiers, internal addresses, and sensitive logs.
           required: true
+
