@@ -1,66 +1,67 @@
-# clmbot 二进制软件非商业使用许可
+# clmbot Binary Software Non-Commercial License
 
-生效日期：2026 年 8 月 9 日  
-许可方：SslTrus Inc.
+Effective date: August 9, 2026  
+Licensor: SslTrus Inc.
 
-本许可适用于由 SslTrus Inc. 通过 clmbot 官网正式发布的 clmbot 编译安装包及其中的可执行文件（以下简称“软件”）。本许可不适用于尚未公开的源代码、clmbot.org 网站源代码、商标、Logo 或第三方材料。
+This license applies to compiled clmbot installation packages and executables officially distributed by SslTrus Inc. through the clmbot website (the **Software**). It does not apply to source code that has not been released, the clmbot.org website source code, trademarks, logos, or third-party materials.
 
-## 1. 免费非商业使用授权
+## 1. Free non-commercial license
 
-在遵守本许可的前提下，SslTrus Inc. 授予个人和组织一项免费、非排他、不可转许可的非商业使用权。
+Subject to this license, SslTrus Inc. grants individuals and organizations a free, non-exclusive, non-transferable license to use the Software for non-commercial purposes.
 
-允许的非商业用途包括个人学习、教育、非营利研究、功能评估、兼容性验证和内部测试。企业或其他组织可以免费进行评估和测试，但不得将软件用于生产业务、客户环境或其他商业活动。
+Permitted non-commercial purposes include personal learning, education, non-profit research, functional evaluation, compatibility testing, and internal testing. Companies and other organizations may evaluate and test the Software at no charge, but may not use it in production operations, customer environments, or other commercial activities.
 
-“商业用途”包括但不限于：
+Commercial use includes, without limitation:
 
-- 用于企业、机构或个人的生产业务、日常经营或营利活动；
-- 用于向客户交付证书、托管服务、运维服务、咨询服务或其他收费服务；
-- 将软件或其功能作为商业产品、商业解决方案或付费服务的一部分；
-- 代表客户部署或管理软件，或以使用软件为条件直接或间接获得收入、商业利益或竞争优势；
-- 在商业推广、售前演示或付费培训中使用，但仅为内部评估且不对外提供服务的情形除外。
+- use in production operations, routine business activities, or revenue-generating activities;
+- delivering certificates or providing managed services, operations services, consulting, or other paid services to customers;
+- including the Software or its functionality in a commercial product, commercial solution, or paid service;
+- deploying or managing the Software for customers, or obtaining direct or indirect revenue, commercial benefit, or competitive advantage through its use; and
+- use in commercial marketing, presales demonstrations, or paid training, except internal evaluation that is not used to provide services externally.
 
-任何商业使用均须事先取得 SslTrus Inc. 的单独书面授权。
+Any commercial use requires separate prior written authorization from SslTrus Inc.
 
-## 2. 复制、镜像与再分发
+## 2. Copying, mirroring, and redistribution
 
-允许以非商业目的复制、镜像或再分发未经修改的官方安装包，但必须同时满足：
+You may copy, mirror, or redistribute unmodified official packages for non-commercial purposes only if all of the following conditions are met:
 
-- 不销售安装包，也不以安装包、下载权限或分发服务收取费用；
-- 保留原始文件名、版权、许可说明和完整安装包内容；
-- 不修改可执行文件、压缩包结构、数字签名或官方 SHA256 信息；
-- 不将镜像或再分发渠道表述为 SslTrus Inc. 官方渠道；
-- 不将软件与恶意程序、绕过安全控制的工具或违法内容捆绑；
-- 建议同时提供官方页面和对应版本 SHA256，方便接收方核验完整性。
+- you do not sell the package or charge for the package, download access, or distribution service;
+- you preserve the original filename, copyright notice, license notice, and complete package contents;
+- you do not modify the executable, archive structure, digital signature, or official SHA256 information;
+- you do not represent a mirror or redistribution channel as an official SslTrus Inc. channel;
+- you do not bundle the Software with malware, tools designed to bypass security controls, or unlawful material; and
+- you are encouraged to provide the official download page and matching SHA256 value so recipients can verify integrity.
 
-SslTrus Inc. 不保证第三方镜像的可用性或完整性。官网列出的下载渠道仍是正式发布来源。
+SslTrus Inc. does not guarantee the availability or integrity of third-party mirrors. The download channels listed on the official website remain the official distribution sources.
 
-## 3. 禁止事项
+## 3. Prohibited activities
 
-除适用法律明确规定不得排除的情形外，不得：
+Except where applicable law expressly prohibits such a restriction, you may not:
 
-- 将软件用于本许可未允许的商业用途；
-- 修改、改编、翻译或制作软件衍生版本；
-- 反编译、反汇编、反向工程或尝试获取源代码；
-- 绕过、移除或破坏软件中的授权、安全或完整性控制；
-- 删除版权、品牌、来源或许可声明；
-- 使用 clmbot 名称或 Logo 暗示未经授权的官方合作、认证或背书。
+- use the Software for a commercial purpose not permitted by this license;
+- modify, adapt, translate, or create derivative versions of the Software;
+- decompile, disassemble, reverse engineer, or attempt to obtain the source code;
+- bypass, remove, or impair licensing, security, or integrity controls;
+- remove copyright, branding, source, or license notices; or
+- use the clmbot name or logo to imply an unauthorized official partnership, certification, or endorsement.
 
-## 4. 无保证与责任限制
+## 4. Disclaimer and limitation of liability
 
-软件按“现状”和“可用状态”免费提供。SslTrus Inc. 不就适销性、特定用途适用性、不侵权、持续可用、无错误或适配全部环境作出明示或默示保证。使用者应自行备份配置与证书、验证更新结果并评估测试环境风险。
+The Software is provided free of charge **AS IS** and **AS AVAILABLE**, without express or implied warranties of merchantability, fitness for a particular purpose, non-infringement, continued availability, error-free operation, or compatibility with every environment. You are responsible for backing up configurations and certificates, validating update results, and assessing risks in your test environment.
 
-在适用法律允许的最大范围内，SslTrus Inc. 不对因下载、安装、使用、无法使用或第三方再分发软件产生的间接、附带、特殊、惩罚性或后果性损失承担责任。
+To the maximum extent permitted by applicable law, SslTrus Inc. is not liable for indirect, incidental, special, punitive, or consequential damages arising from downloading, installing, using, being unable to use, or redistributing the Software.
 
-## 5. 版本、收费与已下载版本
+## 5. Future versions and previously obtained versions
 
-SslTrus Inc. 可以调整未来版本的功能、发布方式、许可条件或收费策略。已经合法取得的版本继续受取得该版本时适用的许可条款约束；后续规则不追溯改变该版本已经获得的权利。
+SslTrus Inc. may change the features, distribution method, license terms, or pricing policy of future versions. A version lawfully obtained remains governed by the license terms that applied when that version was obtained; later rules do not retroactively change the rights already granted for that version.
 
-## 6. 许可终止
+## 6. Termination
 
-如果使用者违反本许可，相关授权自动终止。终止后应停止使用和再分发违规副本；不受影响的接收方可以继续依据其取得软件时适用的许可使用合法副本。
+Rights granted under this license terminate automatically if you violate it. After termination, you must stop using and redistributing non-compliant copies. Unaffected recipients may continue to use lawful copies under the terms that applied when they obtained the Software.
 
-## 7. 源代码与未来开源
+## 7. Source code and any future release
 
-clmbot 与 clmbot.org 源代码当前不公开，本许可不授予任何源代码权利。未来如开放源代码，其范围、时间和许可证以 SslTrus Inc. 的正式公告为准。
+The clmbot and clmbot.org source code is not currently public, and this license grants no source-code rights. If source code is released later, its scope, timing, and license will be stated in an official SslTrus Inc. announcement.
 
-许可问题可通过 clmbot 官网公布的社区渠道联系项目维护者；未修复安全漏洞请发送至 `security@clmbot.org`。
+For license questions, use the community channels listed on the clmbot website. Report unresolved security vulnerabilities to `security@clmbot.org`.
+
