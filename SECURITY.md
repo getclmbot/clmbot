@@ -1,7 +1,14 @@
 # Security policy
 
-Do not disclose security vulnerabilities in public Issues, Discussions, or Pull Requests.
+未修复的安全漏洞不得发布到公开 Issues、Discussions、评论或社交媒体。
 
-The intended reporting address is `security@clmbot.org`. It is not active yet. Until it is verified and published, please contact the project maintainers through a private channel and do not include private keys, credentials, or sensitive customer data in public messages.
+请发送邮件至 `security@clmbot.org`，并包含：
 
-When the GitHub repository is created, private vulnerability reporting should also be enabled in its Security settings.
+- 受影响的 clmbot 版本；
+- 脱敏后的复现步骤；
+- 可能影响；
+- 建议的联系方法。
+
+不要发送与复现无关的私钥、访问凭据、完整证书或客户数据。如果仓库 Security 页面显示 **Report a vulnerability**，也可以使用该入口发起私密报告。
+
+SslTrus Inc. 会先确认报告并协调处理。安全问题采用尽力而为模式，不承诺固定响应或披露时间。
