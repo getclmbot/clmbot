@@ -1,5 +1,7 @@
-# Code of Conduct
+# 社区行为准则
 
-Be constructive, respectful, and privacy-conscious. Harassment, discrimination, threats, doxxing, and publishing credentials or sensitive customer information are not acceptable.
+getclmbot 社区欢迎不同经验和背景的参与者。请保持尊重、耐心和建设性，把技术分歧聚焦于问题、证据和可行方案。
 
-Keep technical criticism focused on the work. Report urgent security matters privately rather than in public community channels.
+以下行为不可接受：骚扰或歧视、威胁、人身攻击、公开他人隐私，以及发布凭证、私钥、证书内容、客户信息或其他敏感数据。维护者可以编辑、隐藏或移除违反准则的内容，并视情况限制参与权限。
+
+如果遇到社区行为问题，请通过 GitHub 维护渠道联系项目维护者。未修复的安全漏洞不得公开发布，请发送至 `security@clmbot.org`。报告会在保护相关人员隐私的前提下处理。
