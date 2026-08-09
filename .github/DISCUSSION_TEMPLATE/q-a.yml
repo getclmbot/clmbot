@@ -3,28 +3,28 @@ body:
   - type: markdown
     attributes:
       value: |
-        感谢提问。请先搜索文档、Discussions 和 Issues。
-        不要提交 AccessKey、AccessSecret、私钥、证书内容、客户域名、内网地址或其他敏感信息。
+        Thank you for asking. Search the documentation, Discussions, and Issues first.
+        Do not include access keys, secrets, private keys, certificate contents, customer domains, internal addresses, or other sensitive data.
   - type: input
     id: goal
     attributes:
-      label: 你希望完成什么？
-      description: 用一句话描述目标，而不只是报错文本。
-      placeholder: 例如：在 Linux amd64 上发现并自动更新 Nginx 证书
+      label: What are you trying to accomplish?
+      description: Describe the goal in one sentence, not only the error message.
+      placeholder: For example, discover and automatically update an Nginx certificate on Linux amd64
     validations:
       required: true
   - type: input
     id: version
     attributes:
-      label: clmbot 版本
-      placeholder: 例如：v0.6.6
+      label: clmbot version
+      placeholder: For example, v0.6.6
     validations:
       required: true
   - type: textarea
     id: environment
     attributes:
-      label: 运行环境
-      description: 包含操作系统、CPU 架构、Web 服务、证书格式和运行模式。
+      label: Environment
+      description: Include the operating system, CPU architecture, web server, certificate format, and operating mode.
       placeholder: |
         - OS:
         - Architecture:
@@ -36,33 +36,34 @@ body:
   - type: textarea
     id: steps
     attributes:
-      label: 执行步骤和命令
-      description: 按顺序列出步骤；配置和日志必须先脱敏。
+      label: Steps and commands
+      description: List the steps in order. Sanitize all configuration and log excerpts first.
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: 期望结果
+      label: Expected result
     validations:
       required: true
   - type: textarea
     id: actual
     attributes:
-      label: 实际结果和脱敏日志
+      label: Actual result and sanitized logs
     validations:
       required: true
   - type: textarea
     id: attempts
     attributes:
-      label: 已经尝试过什么？
-      description: 附上相关文档链接和尝试结果。
+      label: What have you already tried?
+      description: Include relevant documentation links and the result of each attempt.
   - type: checkboxes
     id: safety
     attributes:
-      label: 提交前确认
+      label: Before posting
       options:
-        - label: 我已搜索现有文档、Discussions 和 Issues。
+        - label: I have searched the documentation, Discussions, and Issues.
           required: true
-        - label: 我已删除凭证、私钥、证书内容、客户域名、内网地址和其他敏感信息。
+        - label: I have removed credentials, private keys, certificate contents, customer domains, internal addresses, and other sensitive data.
           required: true
+
