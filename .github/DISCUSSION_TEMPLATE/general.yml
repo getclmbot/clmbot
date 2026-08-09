@@ -1,0 +1,35 @@
+title: "[General] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        General 适合自我介绍、使用场景以及暂时不属于其他分类的话题。
+        使用问题请优先选择 Q&A，明确的改进建议请优先选择 Ideas。
+  - type: input
+    id: topic
+    attributes:
+      label: 讨论主题
+      placeholder: 用一句话说明希望讨论什么
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 背景和上下文
+      description: 说明为什么提出这个话题，以及希望社区怎样参与。
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: 希望得到什么反馈？
+      description: 给参与者一个容易回答的具体问题。
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我没有提交凭证、私钥、客户信息或其他敏感内容。
+          required: true
