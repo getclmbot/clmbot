@@ -1,0 +1,68 @@
+title: "[Q&A] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提问。请先搜索文档、Discussions 和 Issues。
+        不要提交 AccessKey、AccessSecret、私钥、证书内容、客户域名、内网地址或其他敏感信息。
+  - type: input
+    id: goal
+    attributes:
+      label: 你希望完成什么？
+      description: 用一句话描述目标，而不只是报错文本。
+      placeholder: 例如：在 Linux amd64 上发现并自动更新 Nginx 证书
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: clmbot 版本
+      placeholder: 例如：v0.6.6
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 运行环境
+      description: 包含操作系统、CPU 架构、Web 服务、证书格式和运行模式。
+      placeholder: |
+        - OS:
+        - Architecture:
+        - Web server:
+        - Certificate format:
+        - Mode:
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 执行步骤和命令
+      description: 按顺序列出步骤；配置和日志必须先脱敏。
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望结果
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际结果和脱敏日志
+    validations:
+      required: true
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 已经尝试过什么？
+      description: 附上相关文档链接和尝试结果。
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索现有文档、Discussions 和 Issues。
+          required: true
+        - label: 我已删除凭证、私钥、证书内容、客户域名、内网地址和其他敏感信息。
+          required: true
