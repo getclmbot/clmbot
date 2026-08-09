@@ -1,42 +1,41 @@
 # getclmbot community
 
-这是 clmbot 的公开社区支持仓库，用于承载使用问答、问题反馈、功能与适配建议、部署经验和社区规范。
+This is the public community-support repository for clmbot. Use it for questions, reproducible bug reports, feature and integration requests, deployment experience, and community policies.
 
-## 关于 clmbot
+## About clmbot
 
-clmbot 是由 **SslTrus Inc.** 提供并维护的证书交付与自动部署工具：
+clmbot is a certificate delivery and automated deployment tool provided and maintained by **SslTrus Inc.**
 
-- 安装包对非商业用途免费；
-- 个人和组织可用于学习、研究、评估与内部测试；企业生产环境、客户交付和其他商业用途需要另行书面授权；
-- 允许以非商业目的复制、镜像或再分发未经修改的官方安装包；
-- 可连接 CaaS，也可持续适配私有 CLM 或其他证书服务；
-- 支持将证书部署到客户管理的服务器、中间件、Kubernetes Secret 和普通证书目录；
-- 程序与 clmbot.org 网站源代码当前均不公开；
-- 项目计划未来开源，但尚未公布时间或许可证。
+- Official binaries are free for non-commercial use only.
+- Individuals and organizations may use them for learning, education, non-profit research, evaluation, compatibility testing, and internal testing.
+- Production operations, customer delivery, paid services, and any other commercial use require separate written authorization.
+- Unmodified official packages may be copied, mirrored, or redistributed for non-commercial purposes under the [Binary Software Non-Commercial License](BINARY_LICENSE.md).
+- clmbot can connect to CaaS and can be adapted to private CLM systems or other certificate services.
+- It deploys certificates to customer-managed servers, middleware, Kubernetes Secrets, and certificate directories.
+- Product and website source code are not currently public.
+- Source code may be released later, but no date or source-code license has been announced.
 
-本仓库不包含 clmbot 产品源代码，也不是网站源码仓库。
+This repository does not contain the clmbot product source code or the clmbot.org website source code.
 
-## clmbot 与 CaaS
+## clmbot and CaaS
 
-CaaS 是证书生命周期管理服务。CaaS 可以通过厂商 API 直接部署到 CDN、WAF、负载均衡等云产品，也可以使用 clmbot 将证书部署到客户管理的服务器和私有环境。
+CaaS is a certificate lifecycle management service. It can deliver certificates directly to cloud products through vendor APIs, or use clmbot to deploy certificates to customer-managed servers and private environments.
 
-**clmbot 是 CaaS 的一种部署方式，不代表 CaaS 的全部能力。**
+**clmbot is one CaaS deployment method; it does not represent every CaaS capability.**
 
-## 使用入口
+## Start here
 
-- 官网：https://www.clmbot.org/zh/
-- 下载：https://www.clmbot.org/zh/download/
-- 文档：https://www.clmbot.org/zh/docs/
-- GitHub Discussions：https://github.com/orgs/getclmbot/discussions
-- Issues：https://github.com/getclmbot/clmbot/issues
-- 安全报告：security@clmbot.org
+- Website: https://www.clmbot.org/
+- Downloads: https://www.clmbot.org/zh/download/
+- Documentation: https://www.clmbot.org/zh/docs/
+- Community discussions: https://github.com/orgs/getclmbot/discussions
+- Security reports: `security@clmbot.org`
 
-使用问题请进入 Discussions 的 **Q&A**；开放建议和适配需求请进入 **Ideas**；能够稳定复现的缺陷请提交 Issue。
+Use **Q&A** for installation, configuration, certificate discovery, and update questions. Use **Ideas** for feature and integration proposals. File an Issue only when you can provide a reproducible clmbot defect.
 
-## 安全提醒
+## Security reminder
 
-公开内容不得包含 AccessKey、AccessSecret、私钥、证书内容、客户域名、内网地址或未经脱敏的日志。未修复的安全漏洞必须通过私密安全渠道报告。
+Never post access keys, secrets, private keys, certificate contents, customer domains, internal addresses, or unsanitized logs. Report unresolved security vulnerabilities privately.
 
-社区交流须遵守 [Code of Conduct](CODE_OF_CONDUCT.md) 和 [参与说明](CONTRIBUTING.md)。
+Community participation is governed by the [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guide](CONTRIBUTING.md).
 
-二进制软件的允许用途、再分发要求、禁止事项与无保证条款见 [clmbot 二进制软件非商业使用许可](BINARY_LICENSE.md)。
