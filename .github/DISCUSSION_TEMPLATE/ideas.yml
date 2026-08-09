@@ -1,0 +1,55 @@
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas 用于讨论问题和可能的方向，不代表已经进入开发计划。
+        当目标、范围和验收标准清楚后，维护者可以将讨论转为 Issue。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你遇到了什么问题？
+      description: 描述当前工作方式、受影响的人和问题发生的频率。
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 理想结果是什么？
+      description: 描述希望达成的结果，不必一开始就限定具体实现。
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 你目前怎样解决？
+      description: 说明现有替代方案、脚本或人工流程，以及它们的限制。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 这个想法主要涉及哪里？
+      options:
+        - 安装与升级
+        - 证书发现
+        - 配置与凭证
+        - 定时拉取
+        - 远程推送
+        - 平台或上游适配
+        - 文档与社区
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 示例或验证信息
+      description: 可以提供脱敏后的场景、配置片段或兼容性信息。
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已搜索现有 Ideas 和 Issues。
+          required: true
+        - label: 我没有提交凭证、私钥、证书内容或客户信息。
+          required: true
